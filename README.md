@@ -1,4 +1,5 @@
-#**Пакет, решающий задачу "Про Markdown"**
+# **Пакет, решающий задачу "Про Markdown"**
+
 ![](https://img.shields.io/github/watchers/Querang/VVPD6_lab?style=social)
 ![Python](https://img.shields.io/pypi/pyversions/clubhouse?color=red)
 
@@ -6,7 +7,7 @@
 
 Задача ссылается на непосредственное применение языка размертки [Markdown](https://ru.wikipedia.org/wiki/Markdown)
 
-##**Описание**
+## **Описание**
 
 ```stars_functions```  - модуль, выполняющий непосредственное обрамление. Содержит в себе функции ```turn_single_string``` и ```turn_double_string```
 
@@ -28,7 +29,8 @@ Aргумент:
 ```
 **```__main__.py```** - модуль, для реализации интерфейса командной строки
 
-##**Код основных модулей**
+## **Код основных модулей**
+
 Код для модуля ```__main__.py```:
 ```python
 """
@@ -90,12 +92,14 @@ def turn_double_star(string_to_turn):
     else:
         return '<strong>' + string_to_turn[2:find_value_2] + '</strong>' + string_to_turn[find_value_2+2:]
 ```
-##**Установка**
+## **Установка**
+
 Чтобы установить текущую версию пакета введите в консоль команду:
 ```bash
 pip install https://github.com/Querang/VVPD6_lab.git
 ```
-##**Применение**
+## **Применение**
+
 Для запуска программы программы из командой строки используйте команду:
 ```bash
 python __main__.py string_to_turn
