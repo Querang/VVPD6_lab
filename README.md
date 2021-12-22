@@ -109,6 +109,7 @@ python __main__.py string_to_turn
 python __main__.py '**cake is a lie**'
 ```
 >```<em>*cake is a lie*</em>```
+> 
 > ```<strong>cake is a lie</strong>```
 
 Для каждого отдельного модуля пакета была написана документация.
